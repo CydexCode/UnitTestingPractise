@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace UnitTestingPractise
 {
-    internal class CalculatorServise
+    public class CalculatorService
     {
         public int AddTwoInts(int a, int b)
         {
             return a+b;
         }
+
+
     }
 }
