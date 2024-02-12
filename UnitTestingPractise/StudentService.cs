@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace UnitTestingPractise
 {
-    public class CalculatorService
+    public class StudentService
     {
-        public int AddTwoInts(int a, int b)
+        public String  CreateFullName(string FirstName,string LastName) 
         {
-            return a+b;
+            return $"{FirstName} {LastName}";
         }
-
-
     }
 }
